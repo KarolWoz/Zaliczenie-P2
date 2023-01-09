@@ -1,0 +1,57 @@
+/* Część nawigacji */
+nav {
+  background-color: #4e4e4e;
+}
+
+.nav-box {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f1f1f1;
+}
+
+.menu-2 {
+  display: none;
+  gap: 20px;
+}
+
+.menu-2 a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.menu-2 a.disabled {
+  cursor: not-allowed;
+}
+
+.menu {
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f1f1f1;
+  padding: 10px;
+}
+
+.link:last-of-type {
+  padding-right: 90px;
+}
+@media screen and (min-width: 441px) {
+  .menu-2 {
+    display: flex;
+  }
+}

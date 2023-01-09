@@ -1,0 +1,40 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Roboto";
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 441px) {
+  .main-container {
+    width: 960px;
+  }
+
+  .services-container {
+    flex-direction: row;
+  }
+
+  .services-container > .service {
+    width: 198px;
+    height: 193px;
+    flex-direction: row;
+  }
+  .employee-picture {
+    width: 221px;
+    height: 221px;
+  }
+
+  .header-container {
+    width: 577px;
+  }
+}
