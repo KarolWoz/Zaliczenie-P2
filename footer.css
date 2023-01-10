@@ -24,7 +24,7 @@ footer {
 .fa-instagram {
   padding-right: 18px;
 }
-@media screen and (min-width: 441px) {
+@media screen and (min-width: 1024px) {
   .footer-bar {
     height: 71px;
     flex-direction: row;

@@ -50,7 +50,7 @@ nav {
 .link:last-of-type {
   padding-right: 90px;
 }
-@media screen and (min-width: 441px) {
+@media screen and (min-width: 768px) {
   .menu-2 {
     display: flex;
   }

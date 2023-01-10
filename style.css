@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   scroll-behavior: smooth;
@@ -12,10 +16,10 @@ body {
   width: 100%;
   margin: 0 auto;
   font-family: "Roboto";
-  padding-left: 15px;
+  padding: 0px 15px;
 }
 
-@media screen and (min-width: 441px) {
+@media screen and (min-width: 1024px) {
   .main-container {
     width: 960px;
   }

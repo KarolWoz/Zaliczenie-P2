@@ -1,18 +1,18 @@
 /* Usługi */
 .services-container {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 40px;
+  padding: 50px 0px;
 }
 #services {
   background-color: #405d78;
 }
 .services-container > .service {
-  width: 340px;
-  height: 340px;
+  width: 250px;
+  height: 250px;
   background-color: #f1f1f1;
   display: flex;
   justify-content: center;
@@ -22,7 +22,6 @@
 
 .first-one {
   position: relative;
-  margin-top: 30px;
 }
 
 .first-one > div {
@@ -54,8 +53,18 @@
 .service:hover {
   transform: scale(1.05);
 }
+.services-header {
+  font-size: 36px;
+}
 
-@media screen and (min-width: 441px) {
+@media screen and (min-width: 768px) {
+  .services-container > .service {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .services-container {
     flex-direction: row;
     gap: 0px;
@@ -64,10 +73,6 @@
   .services-container > .service {
     width: 198px;
     height: 193px;
-
     margin: 50px;
   }
-}
-.services-header {
-  font-size: 36px;
 }
