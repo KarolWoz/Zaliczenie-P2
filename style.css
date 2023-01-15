@@ -143,7 +143,6 @@ section {
 .workers {
   font-weight: 700;
   font-size: 36px;
-  /* padding-top: 51px; */
   background-color: #f1f1f1;
   text-align: center;
 }
@@ -192,7 +191,6 @@ section {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding: 50px 0px;
 }
 #services {
   background-color: #405d78;
@@ -228,7 +226,6 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #ffffff;
-  /* padding-top: 30px; */
 }
 
 .service {
